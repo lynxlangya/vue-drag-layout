@@ -1,5 +1,7 @@
 # vue-drag-layout
 
+![t5yHAO.png](https://s1.ax1x.com/2020/06/09/t5yHAO.png)
+
 ## Project setup
 ```
 npm install

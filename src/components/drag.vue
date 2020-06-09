@@ -37,6 +37,7 @@
         <div v-else>{{item.i}}</div>
       </grid-item>
     </grid-layout>
+    <!-- 全局设置, 需要取消 grid-item 拖拽,改变项 -->
     <div class="btn-warpper">
       <button
         @click="draggable === true ? draggable = false : draggable = true"
@@ -53,6 +54,7 @@
  * @desc 📝拖拽组件示例
  * @copyright 🤝2020 尽人事, 行王道
  * @see https://github.com/jbaysolutions/vue-grid-layout/blob/master/README-zh_CN.md
+ * @desc 如果给 grid-item 单独设置了是否可拖拽,可改变, 则父元素设置无效
  */
 import { GridLayout, GridItem } from 'vue-grid-layout'
 export default {
